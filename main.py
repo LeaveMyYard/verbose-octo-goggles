@@ -25,13 +25,5 @@ def main_another_way() -> None:
     print(res)
 
 
-def bonus_example() -> None:
-    # for i in range(len(nums)):
-    #     print(i, nums[i])
-
-    for i, num in enumerate(nums):
-        print(i, num)
-
-
 if __name__ == "__main__":
-    bonus_example()
+    main_another_way()
